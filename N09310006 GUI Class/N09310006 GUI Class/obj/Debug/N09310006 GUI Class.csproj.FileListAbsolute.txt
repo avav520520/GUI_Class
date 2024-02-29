@@ -7,3 +7,4 @@ C:\Users\MEGAS\Desktop\GUI_Class\N09310006 GUI Class\N09310006 GUI Class\obj\Deb
 C:\Users\MEGAS\Desktop\GUI_Class\N09310006 GUI Class\N09310006 GUI Class\obj\Debug\N09310006 GUI Class.csproj.CoreCompileInputs.cache
 C:\Users\MEGAS\Desktop\GUI_Class\N09310006 GUI Class\N09310006 GUI Class\obj\Debug\N09310006 GUI Class.exe
 C:\Users\MEGAS\Desktop\GUI_Class\N09310006 GUI Class\N09310006 GUI Class\obj\Debug\N09310006 GUI Class.pdb
+C:\Users\MEGAS\Desktop\GUI_Class\N09310006 GUI Class\N09310006 GUI Class\obj\Debug\N09310006_GUI_Class.Form1.resources
