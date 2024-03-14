@@ -8,3 +8,4 @@ C:\Users\MEGAS\Desktop\GUI_Class\N09310006\N09310006\obj\Debug\N09310006.csproj.
 C:\Users\MEGAS\Desktop\GUI_Class\N09310006\N09310006\obj\Debug\N09310006.csproj.CoreCompileInputs.cache
 C:\Users\MEGAS\Desktop\GUI_Class\N09310006\N09310006\obj\Debug\N09310006.exe
 C:\Users\MEGAS\Desktop\GUI_Class\N09310006\N09310006\obj\Debug\N09310006.pdb
+C:\Users\MEGAS\Desktop\GUI_Class\N09310006\N09310006\obj\Debug\N09310006.Formbutton.resources

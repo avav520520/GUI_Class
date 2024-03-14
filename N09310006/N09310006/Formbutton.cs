@@ -10,29 +10,19 @@ using System.Windows.Forms;
 
 namespace N09310006
 {
-    public partial class Form1 : Form
+    public partial class Formbutton : Form
     {
-        public Form1()
+        public Formbutton()
         {
             InitializeComponent();
         }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            //button1.Text="我已經被按過了";
-            Form form = new Formbutton();
-            form.Show();
-
+            if (button1.Text=="請按我一下")
+                button1.Text="我已經被按過了";
+            else if (button1.Text=="我已經被按過了")
+                button1.Text="請按我一下";
         }
     }
 }
