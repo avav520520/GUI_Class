@@ -1,0 +1,10 @@
+git clone [url]
+
+git add .
+
+git config --global user.email "6129458@gmail.com"
+git config --global user.name "account"
+
+git commit -m "First Commit"
+
+git push -u origin main

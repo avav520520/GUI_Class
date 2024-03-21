@@ -24,5 +24,25 @@ namespace N09310006
             else if (button1.Text=="我已經被按過了")
                 button1.Text="請按我一下";
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label1.Text = "下方已被按過";
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string tmp = label2.Text;
+            int sum = Int32.Parse(tmp)+1;
+            label2.Text = sum.ToString();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+
+            
+
+        }
     }
 }
