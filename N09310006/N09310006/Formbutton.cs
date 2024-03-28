@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -27,7 +28,9 @@ namespace N09310006
 
         private void button2_Click(object sender, EventArgs e)
         {
-            label1.Text = "下方已被按過";
+            String count = label2.Text;
+            int sum = Int32.Parse(count)-1;
+            label2.Text=sum.ToString();
         }
 
         private void button3_Click(object sender, EventArgs e)
