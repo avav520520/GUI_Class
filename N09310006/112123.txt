@@ -3,7 +3,7 @@ git clone [url]
 git add .
 
 git config --global user.email "6129458@gmail.com"
-git config --global user.name "account"
+git config --global user.name "avav520520"
 
 git commit -m "First Commit"
 
