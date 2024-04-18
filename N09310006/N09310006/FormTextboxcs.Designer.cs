@@ -56,6 +56,7 @@
             this.label13 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.textBox10 = new System.Windows.Forms.TextBox();
+            this.button6 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -72,6 +73,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 22);
             this.textBox2.TabIndex = 1;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // button1
             // 
@@ -91,6 +93,7 @@
             this.label1.Size = new System.Drawing.Size(33, 12);
             this.label1.TabIndex = 3;
             this.label1.Text = "label1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -117,6 +120,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 22);
             this.textBox3.TabIndex = 4;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label3
             // 
@@ -135,6 +139,7 @@
             this.label4.Size = new System.Drawing.Size(10, 12);
             this.label4.TabIndex = 8;
             this.label4.Text = "?";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // textBox4
             // 
@@ -142,6 +147,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 22);
             this.textBox4.TabIndex = 9;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // textBox5
             // 
@@ -200,6 +206,7 @@
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(100, 22);
             this.textBox7.TabIndex = 21;
+            this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
             // 
             // label8
             // 
@@ -295,12 +302,24 @@
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(100, 22);
             this.textBox10.TabIndex = 22;
+            this.textBox10.TextChanged += new System.EventHandler(this.textBox10_TextChanged);
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(365, 314);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 28;
+            this.button6.Text = "期中考";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // FormTextboxcs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.textBox9);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label12);
@@ -331,6 +350,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "FormTextboxcs";
             this.Text = "FormTextboxcs";
+            this.Load += new System.EventHandler(this.FormTextboxcs_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -366,5 +386,6 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.Button button6;
     }
 }

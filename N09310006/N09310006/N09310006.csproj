@@ -64,6 +64,12 @@
     <Compile Include="FormTextboxcs.Designer.cs">
       <DependentUpon>FormTextboxcs.cs</DependentUpon>
     </Compile>
+    <Compile Include="N09310006.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="N09310006.Designer.cs">
+      <DependentUpon>N09310006.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -74,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormTextboxcs.resx">
       <DependentUpon>FormTextboxcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="N09310006.resx">
+      <DependentUpon>N09310006.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
