@@ -41,5 +41,19 @@ namespace N09310006
 
             form.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form form = new Formtrycatch();
+
+            form.Show(); 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form form = new N09310006();
+
+            form.Show(); 
+        }
     }
 }

@@ -30,18 +30,13 @@ namespace N09310006
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            int a = Int32.Parse(textBox1.Text);
-            label2.Text = (label)*(9/5) + 32.ToString();
-
-
-
-
-
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            int a = Int32.Parse(textBox1.Text);
+            label3.Text = a * (9.0 / 5) + 32 + "F".ToString();
         }
     }
 }

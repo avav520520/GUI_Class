@@ -64,6 +64,12 @@
     <Compile Include="FormTextboxcs.Designer.cs">
       <DependentUpon>FormTextboxcs.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formtrycatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formtrycatch.Designer.cs">
+      <DependentUpon>Formtrycatch.cs</DependentUpon>
+    </Compile>
     <Compile Include="N09310006.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormTextboxcs.resx">
       <DependentUpon>FormTextboxcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formtrycatch.resx">
+      <DependentUpon>Formtrycatch.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="N09310006.resx">
       <DependentUpon>N09310006.cs</DependentUpon>
