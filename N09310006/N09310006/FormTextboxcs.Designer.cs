@@ -106,7 +106,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(606, 80);
+            this.button2.Location = new System.Drawing.Point(762, 76);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(89, 30);
             this.button2.TabIndex = 5;
@@ -185,7 +185,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(606, 144);
+            this.button3.Location = new System.Drawing.Point(762, 142);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(89, 30);
             this.button3.TabIndex = 11;
@@ -237,7 +237,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(606, 194);
+            this.button4.Location = new System.Drawing.Point(762, 198);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(89, 30);
             this.button4.TabIndex = 17;
@@ -288,7 +288,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(606, 246);
+            this.button5.Location = new System.Drawing.Point(762, 244);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(89, 30);
             this.button5.TabIndex = 23;
@@ -306,7 +306,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(365, 314);
+            this.button6.Location = new System.Drawing.Point(37, 216);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 23);
             this.button6.TabIndex = 28;
@@ -318,7 +318,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1148, 450);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.textBox9);
             this.Controls.Add(this.label11);

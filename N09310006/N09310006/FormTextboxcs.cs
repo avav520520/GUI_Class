@@ -52,7 +52,16 @@ namespace N09310006
         {
             int a = Int32.Parse(textBox10.Text);
             int b = Int32.Parse(textBox9.Text);
-            label11.Text = (a / b).ToString();
+
+            if (b > 0)
+            {
+                label11.Text = (a / b).ToString();
+            }
+            else
+            {
+                label11.Text = "錯誤：分母不能為零";
+            }
+
         }
 
         private void textBox11_TextChanged(object sender, EventArgs e)
