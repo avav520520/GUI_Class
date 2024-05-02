@@ -55,5 +55,12 @@ namespace N09310006
 
             form.Show(); 
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Form form = new FormTimer2();
+
+            form.Show();
+        }
     }
 }
