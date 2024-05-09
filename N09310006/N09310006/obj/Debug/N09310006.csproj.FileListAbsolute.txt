@@ -27,3 +27,4 @@ C:\Users\pd964\OneDrive\桌面\GUI_Class\N09310006\N09310006\obj\Debug\N09310006
 C:\Users\MEGAS\Desktop\GUI_Class\N09310006\N09310006\obj\Debug\N09310006.Formtrycatch.resources
 C:\Users\MEGAS\Desktop\GUI_Class\N09310006\N09310006\obj\Debug\N09310006.N09310006.resources
 C:\Users\MEGAS\Desktop\GUI_Class\N09310006\N09310006\obj\Debug\N09310006.FormTimer2.resources
+C:\Users\MEGAS\Desktop\GUI_Class\N09310006\N09310006\obj\Debug\N09310006.Form_game.resources
