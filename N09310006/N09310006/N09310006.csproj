@@ -76,6 +76,12 @@
     <Compile Include="Formchack.Designer.cs">
       <DependentUpon>Formchack.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenu.Designer.cs">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormTextboxcs.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +122,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formchack.resx">
       <DependentUpon>Formchack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTextboxcs.resx">
       <DependentUpon>FormTextboxcs.cs</DependentUpon>

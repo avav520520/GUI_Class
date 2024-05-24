@@ -69,5 +69,12 @@ namespace N09310006
 
             form.Show();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Form form = new FormMenu();
+
+            form.Show();
+        }
     }
 }

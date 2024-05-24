@@ -38,23 +38,28 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label1.Font = new System.Drawing.Font("新細明體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label1.Location = new System.Drawing.Point(166, 85);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 12);
+            this.label1.Size = new System.Drawing.Size(110, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "多遊四甲";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label2.Font = new System.Drawing.Font("新細明體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label2.Location = new System.Drawing.Point(321, 85);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(61, 12);
+            this.label2.Size = new System.Drawing.Size(123, 24);
             this.label2.TabIndex = 1;
             this.label2.Text = "N09310006";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -62,9 +67,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(511, 85);
+            this.label3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label3.Font = new System.Drawing.Font("新細明體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label3.Location = new System.Drawing.Point(478, 85);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 12);
+            this.label3.Size = new System.Drawing.Size(85, 24);
             this.label3.TabIndex = 2;
             this.label3.Text = "王彥傑";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -138,11 +145,22 @@
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(558, 205);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(105, 34);
+            this.button8.TabIndex = 10;
+            this.button8.Text = "菜單";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -172,6 +190,7 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
     }
 }
 
